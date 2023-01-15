@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+    /* border: 2px solid red; */
+    /* background-color: wheat; */
+    display: flex;
+     position: relative; 
+     flex-wrap: wrap;
+}
+
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none; 
+    padding: 24px 0px;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin: 5px 37px;
+    padding: 10px 10px ;
+    color: sandybrown;
+}
+.navbar ul li a:hover{
+    background-color: salmon;
+    border-radius: 7px;
+    
+    color: white;
+}
+.navbar img{
+
+  width: 82px;
+}
+.search{
+    margin: 19px 10px 10px 254px;
+}
+.search input{
+    
+    padding: 4px 86px;
+    border-radius: 7px;
+}
+.primarysection{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 670px;
+    position: relative; 
+}
+.primarysection ::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.6;
+    background: url('primary1.jpg') no-repeat center center/cover;
+}
+.primarysection h1{
+    color:rgb(85, 17, 85);
+}
+.btn{
+    width: 90px;
+    height: 30px;
+    background-color:red; 
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+}
+.primarysection p{
+    color: white;
+}
+.secoundrysection{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    position: relative; 
+    
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 35px;
+}
+.box p{
+    text-align: justify;
+    color: white;
+}
+.box h2{
+    color:rgb(85, 17, 85);
+}
+.secoundrysection ::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.6;
+    background: url('border.jpg') no-repeat center center/cover;
+}
+.trisection{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    position: relative; 
+
+}
+.trisection ::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.6;
+    background-color: white;
+    /* background: url('images.png') no-repeat center center/cover; */
+}
+.trisection h1{
+    font-size: 1.6rem;
+    color:rgb(85, 17, 85);
+    margin: 1px 5px;
+    padding: 17px 5px;
+
+}
+.imagebox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    
+
+}
+.imgbox{
+    width: 100px;
+    height: 100px;
+    margin:10px 36px;
+
+}
+.formfill form{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+
+}
+.formfill form input,textarea{
+    padding: 5px 151px;
+    margin: 5px 5px;    padding: 5px 151px;
+    margin: 5px 5px;
+    border-radius: 6px;
+    background-color: transparent;
+    border-color: rgb(116, 85, 116);
+   
+}
+.formfill h1{
+    color: rgb(85, 17, 85);
+    font-size: 29px;
+}
+
+
+.formfill{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    position: relative; 
+    background: url('mid.jpg')no-repeat center center/cover;
+}
+#sbmit{
+    width: 60px;
+    height: 30px;
+    background-color:red;
+    border: none;
+}
+.forthsection{
+    /* border: 2px solid red;  */
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    position: relative; 
+    background-color:rgb(85, 17, 85) ;
+}
+
